@@ -29,4 +29,5 @@ jobs:
     - name: Build
       run: |
         pnpm install
+        ./node_modules/@tarojs/cli/bin/taro
         pnpm build:h5
