@@ -71,8 +71,5 @@
     "postcss": "^8.4.18",
     "ts-node": "^10.9.1",
     "@types/node": "^18.15.11"
-  },
-  "resolutions": {
-    "@swc/core": "1.3.61"
   }
 }
