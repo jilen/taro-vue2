@@ -29,6 +29,5 @@ jobs:
 
     - name: Build
       run: |
-        corepack prepare pnpm@latest --activate
         pnpm install
         pnpm build:h5
