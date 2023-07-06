@@ -22,6 +22,11 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
+     - name: Install pnpm
+       uses: pnpm/action-setup@v2
+       with:
+          version: 7
+
     - name: Build
       run: |
         corepack prepare pnpm@latest --activate
